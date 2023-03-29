@@ -1,0 +1,58 @@
+@media  (min-width: 768px) {
+    header :where(.left, ul){
+        flex-direction: row;
+    }
+
+    header nav .logo a {
+        margin-right: 2em;
+    } 
+
+    .mobile-only {
+        display: none;
+    }  
+
+    header nav .menu {
+        position: relative;
+        padding: 0;
+        max-width: max-content;
+        background-color: transparent;
+        visibility: inherit;
+        transform: none;
+    }
+
+    header nav .menu ul li a {
+        font-size: inherit;
+        color: var(--white-color);
+    }
+
+    header nav .menu ul li a:hover {
+        color: var(--primary-color);
+    }
+
+    
+}
+
+@media (min-width: 992px) {
+    .slider .thumb_nav {
+        position: absolute;
+        right: 0;
+        bottom: -9em;
+        height: 250px;
+    }
+
+    .swiper-vertical>.swiper-wrapper {
+        gap: 18px;
+        display: flex;
+    }
+
+    :is(.slider .thumb_nav ul li) {
+        height: 60px !important;
+    }
+
+    .slider .thumb_nav .item h4 {
+        display: block;
+
+    }
+
+    
+}
