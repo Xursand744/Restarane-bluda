@@ -88,6 +88,7 @@ margin-bottom: -15px;
     width: 100%;
     padding: 0 2rem;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .icons a {
@@ -781,7 +782,7 @@ main>div {
 footer .wrapper {
     display: grid;
     gap: 3em;
-    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr)) !important;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important;
 }
 
 .formblog .cat a {
